@@ -89,3 +89,15 @@ contactP[2].textContent = siteContent.contact['email']
 
 document.querySelector('footer p').textContent = siteContent.footer.copyright
 
+// header.classList.add('green')
+// header.style.textColor = 'green'
+
+const navItem7 = document.createElement('a')
+navItem7.textContent = 'Blog'
+navItem7.href = '#'
+document.querySelector('nav a').appendChild(navItem7)
+
+const navItem8 = document.createElement('a')
+navItem8.textContent = 'Team'
+navItem8.href = '#'
+document.querySelector('nav a').prepend(navItem8)
